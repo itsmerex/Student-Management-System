@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentManagementSystem.ViewProfileStudentsController">
+   <children>
+      <AnchorPane fx:id="main_form" layoutX="-101.0" layoutY="-4.0" prefHeight="585.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane layoutY="-21.0" prefHeight="585.0" prefWidth="1000.0" stylesheets="@dashboardDesign.css" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-21.0">
+               <styleClass>
+                  <String fx:value="white-bg" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <Label layoutX="24.0" layoutY="73.0" text="Student #:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="74.0" layoutY="108.0" text="Year:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="54.0" layoutY="141.0" text="Course:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="175.0" text="First Name:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="addStudents_firstName" layoutX="124.0" layoutY="174.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <Label layoutX="22.0" layoutY="244.0" text="Last Name:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="addStudents_lastName" layoutX="123.0" layoutY="243.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <Label layoutX="52.0" layoutY="315.0" text="Gender:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="28.0" layoutY="352.0" text="Birth Date:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="65.0" layoutY="453.0" text="Status:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="2.0" layoutY="211.0" text="Middle Name:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="addStudents_middleName" layoutX="124.0" layoutY="208.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <Label layoutX="66.0" layoutY="280.0" text="Suffix:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="50.0" layoutY="384.0" minHeight="15.0" minWidth="48.0" prefHeight="26.0" prefWidth="87.0" text="Address:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="294.0" layoutY="74.0" text="Mother's Name:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="31.0" layoutY="418.0" text="Contact #:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="32.0" text="PERSONAL INFORMATION">
+                     <font>
+                        <Font name="Bell MT Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="360.0" layoutY="33.0" text="FAMILY BACKGROUND">
+                     <font>
+                        <Font name="Bell MT Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="328.0" layoutY="109.0" text="Occupation:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="339.0" layoutY="144.0" text="Contact #:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="358.0" layoutY="177.0" text="Address:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="302.0" layoutY="212.0" text="Father's Name:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="330.0" layoutY="245.0" text="Occupation:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="341.0" layoutY="282.0" text="Contact #:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="360.0" layoutY="316.0" text="Address:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="629.0" layoutY="35.0" text="EDUCATIONAL BACKGROUND">
+                     <font>
+                        <Font name="Bell MT Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="668.0" layoutY="75.0" text="Elementary:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="630.0" layoutY="111.0" text="Year Graduated:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="652.0" layoutY="146.0" text="Senior High#:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="711.0" layoutY="181.0" text="Strand:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="634.0" layoutY="217.0" text="Year Graduated:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="51.0" layoutY="489.0" text="Religion:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="525.0" text="Citizenship:">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="addStudents_studentId" layoutX="122.0" layoutY="72.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_year" layoutX="122.0" layoutY="106.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_course" layoutX="123.0" layoutY="140.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_suffix" layoutX="122.0" layoutY="278.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_gender" layoutX="125.0" layoutY="313.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_birthdate" layoutX="126.0" layoutY="348.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_address" layoutX="127.0" layoutY="383.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_contactNumber" layoutX="127.0" layoutY="417.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_status" layoutX="128.0" layoutY="452.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_religion" layoutX="128.0" layoutY="487.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_citizenship" layoutX="128.0" layoutY="523.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_motherName" layoutX="434.0" layoutY="72.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_motherOccupation" layoutX="434.0" layoutY="106.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_motherContactNumber" layoutX="434.0" layoutY="141.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_motherAddress" layoutX="435.0" layoutY="175.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_fatherName" layoutX="436.0" layoutY="210.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_fatherOccupation" layoutX="436.0" layoutY="244.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_fatherContactNumber" layoutX="437.0" layoutY="278.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_fatherAddress" layoutX="437.0" layoutY="313.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_elementary" layoutX="776.0" layoutY="74.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_elementaryYearGraduated" layoutX="776.0" layoutY="109.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_seniorHigh" layoutX="776.0" layoutY="144.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_strand" layoutX="777.0" layoutY="178.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <TextField fx:id="addStudents_seniorHighYearGraduated" layoutX="779.0" layoutY="213.0" minHeight="15.0" minWidth="140.0" prefHeight="30.0" prefWidth="155.0" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+               </children>
+            </AnchorPane>
+            <Button fx:id="close_btn" layoutX="966.0" layoutY="-3.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="37.0" styleClass="close" stylesheets="@dashboardDesign.css">
+               <graphic>
+                  <FontAwesomeIcon glyphName="CLOSE" />
+               </graphic>
+            </Button>
+            <Button fx:id="minimize" layoutX="932.0" mnemonicParsing="false" onAction="#minimize" prefHeight="25.0" prefWidth="37.0" styleClass="minimize" stylesheets="@dashboardDesign.css">
+               <graphic>
+                  <FontAwesomeIcon glyphName="MINUS" />
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="705.0" layoutY="285.0" prefHeight="174.0" prefWidth="146.0" styleClass="shadow" stylesheets="@dashboardDesign.css">
+         <children>
+            <ImageView fx:id="addStudents_imageView" fitHeight="174.0" fitWidth="167.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="69.0" layoutY="156.0" text="Image" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

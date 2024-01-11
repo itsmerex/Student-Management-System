@@ -1,0 +1,82 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+    .white-bg{
+    background-color: #fff;
+}
+
+.left-form{
+    -fx-background-color:linear-gradient(to bottom right, #2f3f89,#9231b5);
+    -fx-border-color:#000;
+    -fx-border-width:.4px 0px .4px .4px;
+}
+
+.right-form{
+    -fx-background-color:#fff;
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .4px 0px;
+}
+
+.close{
+     -fx-background-color: transparent;
+     -fx-cursor:hand;
+}
+
+.close:hover{
+     -fx-background-color: #e03f5a;
+     
+}
+
+.textfield{
+    -fx-background-color: transparent;
+    -fx-border-color: #3f3951;
+    -fx-border-width: 0px 0px 0.8px 0px;
+    -fx-font-size: 13px;
+    -fx-font-family:"Tahoma";
+}
+
+.textfield:focused{
+    -fx-border-color: linear-gradient(to bottom right, #2f3f89,#9231b5);
+    -fx-border-width: 0px 0px 1.5px 0px;
+      
+}
+.login-btn{
+    -fx-background-color:linear-gradient(to bottom right, #4885da,#224e75);
+    -fx-background-radius: 20px 5px 20px 5px;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+    -fx-cursor:hand;
+     -fx-font-family:"Tahoma";
+}
+.login-btn:hover{
+     -fx-background-color:linear-gradient(to bottom right, #649de4,#3e78a7);
+}
+.addAdmin-btn{
+    -fx-background-color:#2d7755;
+    -fx-background-radius: 20px 5px 20px 5px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Tahoma";
+}
+.addAdmin-btn:hover{
+    -fx-background-color:#ae21ac;
+}
+.text-field-no-border {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-text-field-no-borderradius: 0;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-border-color: #3f3951;
+    -fx-border-width: 0px 0px 0.8px 0px;
+    -fx-font-size: 13px;
+    -fx-font-family:"Tahoma";
+}
+
+
+}

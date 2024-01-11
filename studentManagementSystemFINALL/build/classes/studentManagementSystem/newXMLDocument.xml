@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<root>
+
+<property name="javafx.C:\Program Files\Java\javafx-sdk-20.0.2\lib" location="path/to/javafx/libs"/>
+
+<target name="compile" depends="init">
+    <javac srcdir="${src.dir}" destdir="${build.classes.dir}" includeantruntime="false">
+        <classpath>
+            <fileset dir="${javafx.libs}" includes="**/*.jar"/>
+        </classpath>
+    </javac>
+</target>
+
+<target name="run" depends="jar">
+    <java jar="${dist.jar}" fork="true">
+        <classpath>
+            <fileset dir="${javafx.libs}" includes="**/*.jar"/>
+        </classpath>
+    </java>
+</target>
+
+</root>
+

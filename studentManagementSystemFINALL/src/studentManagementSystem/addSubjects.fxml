@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="addSubjects_form" prefHeight="564.0" prefWidth="877.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentManagementSystem.AddSubjectsController">
+   <children>
+      <AnchorPane fx:id="mainform" prefHeight="564.0" prefWidth="881.0" styleClass="white-bg" stylesheets="@dashboardDesign.css">
+         <children>
+            <TableView fx:id="addSubjects_tableView" layoutX="6.0" layoutY="82.0" prefHeight="395.0" prefWidth="869.0" stylesheets="@dashboardDesign.css">
+              <columns>
+                <TableColumn fx:id="subjectCode" prefWidth="101.33334589004517" text="Subject Code" />
+                <TableColumn fx:id="subjectDesc" prefWidth="242.66669464111328" text="Subject Description" />
+                  <TableColumn fx:id="units" prefWidth="90.0" text="Units" />
+                  <TableColumn fx:id="instructor" prefWidth="168.00003051757812" text="Instructor " />
+                  <TableColumn fx:id="schedule" prefWidth="137.99993896484375" text="Schedule" />
+                  <TableColumn fx:id="room" prefWidth="127.33331298828125" text="Room" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <Button fx:id="minimize" layoutX="799.0" layoutY="2.0" mnemonicParsing="false" onAction="#minimize" prefHeight="25.0" prefWidth="37.0" styleClass="minimize" stylesheets="@dashboardDesign.css">
+         <graphic>
+            <FontAwesomeIcon glyphName="MINUS" />
+         </graphic>
+      </Button>
+      <Button fx:id="close_btn" layoutX="839.0" layoutY="-1.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="37.0" styleClass="close" stylesheets="@dashboardDesign.css">
+         <graphic>
+            <FontAwesomeIcon glyphName="CLOSE" />
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
